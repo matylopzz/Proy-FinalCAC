@@ -86,7 +86,7 @@ span {
 .container{
     width: 100%;
     height: 100vh;
-    background-color: #d0d0d0;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,7 +203,7 @@ form p a{
   background-image: linear-gradient(
     rgba(0,0,0,0.7),
     rgba(0,0,0,0.7)),
-    url(/img);
+    url(/assets/img/stk3atocha-1080x675.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; /*cubre toda la imagen (area)*/
@@ -466,3 +466,150 @@ background-color: white;
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+/* reseña */
+/* Estilos para la sección de comentarios */
+.user-reviews {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.user-reviews h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilos para cada comentario */
+.review {
+    background-color: #e7f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.review h3 {
+    color: #007BFF;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.review p {
+    color: #666;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .user-reviews {
+        padding: 15px;
+    }
+
+    .review {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .user-reviews {
+        padding: 10px;
+    }
+
+    .review {
+        padding: 8px;
+    }
+
+    .user-reviews h2 {
+        font-size: 20px;
+    }
+
+    .review h3 {
+        font-size: 16px;
+    }
+
+    .review p {
+        font-size: 14px;
+    }
+}
+
+/* fin reseña */
+
+/* sucursales */
+/* Estilos para la sección de sucursales */
+.branches {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.branches h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilos para cada sucursal */
+.branch {
+    background-color: #e7f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.branch h3 {
+    color: #007BFF;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.branch p {
+    color: #666;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .branches {
+        padding: 15px;
+    }
+
+    .branch {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .branches {
+        padding: 10px;
+    }
+
+    .branch {
+        padding: 8px;
+    }
+
+    .branches h2 {
+        font-size: 20px;
+    }
+
+    .branch h3 {
+        font-size: 16px;
+    }
+
+    .branch p {
+        font-size: 14px;
+    }
+}
+
+/* fin sucursales */
